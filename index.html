@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid bg-image p-0" style="background-image: url('mainbg.jpg'); height: 60rem; background-size: cover; 
+      background-repeat: no-repeat;">
+        <nav class="navbar navbar-expand-lg b bg-dark w-100">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo" style="width:90px; padding-bottom: 30px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navlit me-auto mb-2 mb-lg-0">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link active " aria-current="page" href="#">
+                                Home
+                                <img src="fire.png" alt="Fire" class="fire-img">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Find Kitchen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Register your Kitchen</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav navlit">
+                        <li class="nav-item position-relative">
+                            <a class="nav-link" href="#">
+                                <img src="cart.svg" alt="Logo" style="width: 20px;">
+                                <span class="badge rounded-pill bg-warning">3</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                Sign Out
+                                <img src="sign-in.svg" alt="Logo" style="width: 17px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main text-light" style="margin-top: 200px;">
+            <div class="container-fluid">
+                <div class="container p-0">
+                    <p class="h1 mb-5 fw-bold p1">Find Fresh, Authentic And<br> Homemade Food Near You</p>
+                    <p class="fw-semibold mb-5 p2 text-capitalize ">We aim to connect local, home-based <br>food
+                        businesses
+                        with customers.</p>
+                    <form action=""
+                        class="row w-50 btnin justify-content-between align-items-center input-group bg-light px-2 py-2 ">
+                        <div class="col-auto p-0 ">
+                            <input type="text" class="in1 form-control border-0" placeholder="Enter your location">
+                        </div>
+                        <div class="col-auto p-0">
+                            <button class="btn btn-lg py-3 text-light border-0 rounded-0" type="button">Update
+                                Loaction</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-0 steps" style="margin-top: 180px;   ">
+            <div class="row  mx-4">
+                <div class="col-lg-4 col-md-6  mb-3">
+                    <div class="card bg-dark text-light" style=" height: 13rem;">
+                        <div class="card-body st1">
+                            <img src="calender.png" alt="">
+                            <p class="card-text  d-inline ms-2" style="color: #d8ab37;">STEP 1</p>
+                            <h4 class="card-title title mt-3">Explore Kitchen</h4>
+                            <p class="card-text my-2 ">Choose delicious, homemade meals, snacks, baked goods and
+                                more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card bg-dark text-light" style=" height: 13rem;">
+                        <div class="card-body st1">
+                            <img src="meat.svg" alt="">
+                            <p class="card-text d-inline ms-2" style="color: #d8ab37;">STEP 2</p>
+                            <h4 class="card-title title mt-3">Choose Your Date And Dishes</h4>
+                            <p class="card-text my-2 con">Kitchens require 48 hrs of minimum time to ensure they can
+                                fulfill the order.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mb-3">
+                    <div class="card bg-dark text-light" style=" height: 13rem;">
+                        <div class="card-body st1">
+                            <img src="location.svg" alt="">
+                            <p class="card-text d-inline ms-2" style="color: #d8ab37;">STEP 3</p>
+                            <h4 class="card-title title mt-3">Submit Your Order</h4>
+                            <p class="card-text my-2 con">Order for pickup/delivery and enjoy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid near" style="margin-top: 180px;">
+        <div class="row">
+            <div class="col-12 ">
+                <p style="font-size: 2rem; color: #d8ab37; font-family: cursive; text-align: center; 
+            margin-bottom: 16px; font-weight: 900;">near you</p>
+            </div>
+        </div>
+        <div class="row text-center" style="color: #2f3237; font-size: 2.5rem; font-weight: 700; margin-bottom: 27px;">
+            <div class="col-12">
+                <p> Kitchens Near You</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p style="font-size: 16px;color: #5d6978;text-align: center;margin-bottom: 20px;">Check out some of our
+                    best
+                    kitchens. </p>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="demo">
+            <div class="col-auto">
+                <button type="button" class="btn rounded-pill text-secondary p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 10</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn  rounded-pill text-secondary p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 11</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn rounded-pill text-secondary p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 12</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn rounded-pill text-secondary p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 13</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn text-secondary rounded-pill p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 14</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn text-secondary rounded-pill p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 15</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn rounded-pill text-secondary p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 16</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn text-secondary rounded-pill p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 17</p>
+                </button>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn text-secondary rounded-pill p-0 mx-1"
+                    style="background-color: rgb(220, 235, 245);">
+                    <p class="h6 px-3 m-0">Sat<br>Feb 18</p>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="container mt-3">
+            <div class="row sun" style="margin-bottom: 10px; margin-top: 25px; margin-right: 220px">
+                <div class="col-12">
+                    <p class="text-secondary">Sunday 11,February</p>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc1" style="width: 100%;">
+
+                        <div class="card-img-top">
+                            <img src="suratcafe.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto  text-white "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc cc1" style="width: 100%;">
+
+                        <div class="card-img-top">
+                            <img src="palmcafe.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto  text-white "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc cc1" style="width: 100%;">
+
+                        <div class="card-img-top">
+                            <img src="housecafe.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto  text-white "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc cc1" style="width: 100%;">
+                        <div class="card-img-top">
+                            <img src="foodcafe.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto text-white "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc cc1" style="width: 100%; ">
+                        <div class="card-img-top">
+                            <img src="ppkitchen.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto  text-white  "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+                    <div class="card cc cc1" style="width: 100%; ">
+                        <div class="card-img-top">
+                            <img src="nibakes.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-img-overlay align-items-end row ">
+                                <div class="box col-auto  text-white "
+                                    style="position: absolute; top:60%; background-color: rgb(225, 167, 43); border-radius: 0px 30px 30px 0px; ">
+                                    Kitchen</div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h4 class="card-title"><a class="text-dark" style="text-decoration: none;" href="#">Surat
+                                    Cafe
+                            </h4></a>
+                            <div class="rating">
+                                &#9733; &#9733; &#9733; &#9734; &#9734; 3.80(5)
+                            </div>
+                            <br>
+                            <div class="card-text text-secondary">
+                                <div class="row justify-content-between">
+                                    <div class="col-auto">
+                                        <p>5.6 km,Surat</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="img ml-2 d-inline pl-5" style="font-size: 1.25rem;">
+                                            <img src="truck.png" alt="" style="width: 1em;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="section-title text-center row justify-content-around ">
+            <div class="col-auto ">
+                <span class="text-warning " style="display: inline-block; font-size: 30px; color: #d8ab37; font-family:cursive;
+            margin-bottom: 50px; font-weight: 600;">The reason why </span>
+                <h2 class="text-capitalize bold " style="margin-top: '80px';font-size: 36px;font-weight: 800;">
+                    why people choose us</h2>
+            </div>
+        </div>
+
+        <div class="our-proptz text-center p-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 col-md-4  mb-4">
+                    <div class="proptz">
+                        <div class="propt-icon">
+                            <img src="s1.png" alt="">
+                        </div>
+                        <h3 class="semi-bold text-capitalize">Diverse options</h3>
+                        <p class="text-econdary ">Choose from a diverse range of meals, snacks, and
+                            baked
+                            goods made with love.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4  mb-4">
+                    <div class="proptz">
+                        <div class="propt-icon">
+                            <img src="s2.png" alt="">
+                        </div>
+                        <h3 class="semi-bold text-capitalize">Flexible scheduling</h3>
+                        <p>Kitchens can operate at their own time and customers can order for up to 30 days in
+                            advance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="proptz">
+                        <div class="propt-icon">
+                            <img src="s3.png" alt="">
+                        </div>
+                        <h3 class="semi-bold text-capitalize">Grow your brand</h3>
+                        <p>We will provide marketing tools and resources to help kitchens grow their business.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 mb-4">
+                    <div class="proptz">
+                        <div class="propt-icon">
+                            <img src="s4.png" alt="">
+                        </div>
+                        <h3 class="semi-bold text-capitalize">Connecting communities</h3>
+                        <p>Grow your local network and share the joy of food with others in your community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center" style="margin-bottom: 60px;">
+            <div class="section-title">
+                <span class="text-warning"
+                    style="font-family: cursive; font-size: 25px; font-weight: 900;">Testimonials</span>
+                <h1 class="text-capitalize" style="font-weight: 900; margin-top: 30px; margin-bottom: 40px;">
+                    Happy Customers Say</h1>
+            </div>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <p class="text-secondary" style="max-width:600px">Very fast delivery. I recommend to
+                                everyone.
+                                The food is very hot and fresh and also as tasty as in a kitchen. The application is
+                                very
+                                convenient and understandable.</p>
+                            <h3 class="bold">Anushka (Coustmer)</h3>
+                            <p class="text-secondary">15 feb,2023</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <p class="text-secondary" style="max-width:600px">Very fast delivery. I recommend to
+                                everyone.
+                                The food is very hot and fresh and also as tasty as in a kitchen. The application is
+                                very
+                                convenient and understandable.</p>
+                            <h3 class="bold">Priya (Coustmer)</h3>
+                            <p class="text-secondary">15 feb,2023</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <p class="text-secondary" style="max-width:600px">Very fast delivery. I recommend to
+                                everyone.
+                                The food is very hot and fresh and also as tasty as in a kitchen. The application is
+                                very
+                                convenient and understandable.</p>
+                            <h3 class="bold">raghav (Coustmer)</h3>
+                            <p class="text-secondary">15 feb,2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev btn11" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next btn11" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="sec-block oder-sec">
+        <div class="fixed-bg bg2">
+            <div class="container-fluid bg-image col-sm-6" style="background-image: url('blackbg.jpeg'); background-size: cover; 
+            background-repeat: no-repeat; margin-top: 30px;">
+
+                <div class="container-fluid p-0"> >
+                    <div class="order-application p-4 rounded order">
+                        <h1 class="text-white bold" style="font-size: 3rem; font-weight: 800;">Make orders <br> With Our
+                            <br> <span class="text-warning bold">Application</span></h2>
+                            <ul class="list-unstyled text-top">
+                                <li class="media my-4 d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange"
+                                        class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                                    </svg>
+                                    <div class="media-body">
+                                        <h4 class="mt-0 mb-2 text-white"> Order and pay in a few minutes</h4>
+                                        <p class="text-secondary"> Choose food and pay for the order in a couple of
+                                            clicks online also choose your current location using GPS.</p>
+                                    </div>
+                                </li>
+                                <li class="media my-4 d-flex ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange"
+                                        class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                        <path
+                                            d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                                    </svg>
+                                    <div class="media-body">
+                                        <h4 class="mt-0 mb-2 text-white">Check Delivery Status</h4>
+                                        <p class="text-secondary">Follow the status of your order in real time and also
+                                            track the delivery path until you get it.</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class=" app-button" style="margin-left: 0px; padding-bottom: 50px;">
+                                <a href="#" title="" class="text-decoration-none">
+                                    <img src="google.png" alt="Google Play Button" style="width: 120px; height: auto;">
+                                </a>
+
+                                <a href="#" title="" style="padding-left: 10px;">
+                                    <img src="app.png" alt="App Store Button" style="width: 120px; height: auto;">
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-block pb-5" style="margin-top: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card jimg">
+                        <img class="card-img p-0 " src="patron.jpeg" alt="Card image">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-between">
+                            <p class="text-white d-inline m-0 join"
+                                style="font-size: 40px; font-weight: 700; display: inline-block;"><a href="#"
+                                    class="text-white join text-decoration-none">Join as a Patron</a></p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white"
+                                class="bi bi11 bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .5.5.5.5 0 0 0 .354-.146l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card jimg">
+                        <img class="card-img p-0" src="partner.jpeg" alt="Card image">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-between ">
+
+                            <p class="text-white d-inline m-0 join"
+                                style="font-size: 40px; font-weight: 700; display: inline-block;"><a href="#"
+                                    class="text-white join text-decoration-none">Partner with us as
+                                    <br>a Kitchen</a></p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white"
+                                class="bi bi11 bi-arrow-right-circle" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .5.5.5.5 0 0 0 .354-.146l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid" style=" background-image: url('fbg.jpeg');  background-size: cover; 
+    background-repeat: no-repeat; margin-top: 30px; padding: 12px;">
+        <div class="row align-items-center text-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="widget widget-about footer-logo ">
+                    <img src="logo.png" alt="" style="width: 200px; height: 200px; margin-bottom: 20px;">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="widget widget-contact footer-follow-section">
+                    <h4 class="text-white" style="margin-top: 20px; margin-bottom: 20px;">Follow us on:
+                        <a class="social_icon text-decoration-none" href="https://www.facebook.com/tiffineatz"
+                            target="_blank">
+                            <img src="facebook.png" alt="Facebook">
+                        </a>
+                       
+                    </h4>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="widget widget-payment ">
+                    <div class="wid-payment">
+                        <h4 class="text-white pb-2" style="font-size: 20px;margin-top: 20px;">Payment Options</h4>
+                        <img src="cards.png" class="pb-5" alt="Payment Options">
+                    </div>
+                    <div class="wid-payment">
+                        <h4 class="text-white pb-2" style="font-size: 20px;">Download the app</h4>
+                        <ul class=" list-inline">
+                            <li class="list-inline-item justify-content-around">
+                                <a target="__blank" href="https://play.google.com/store/apps/details?id=com.tiffineatz"
+                                    title="">
+                                    <img src="google.png" alt="Google Play"
+                                        style="margin-bottom: 40px; width: 120px; height: auto;">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="__blank"
+                                    href="https://apps.apple.com/us/app/tiffineatz-homemade-food/id1575051495" title="">
+                                    <img src="app.png" alt="App Store"
+                                        style="margin-bottom: 40px; width: 120px; height: auto;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-footer" style="background-color: #141519;
+    padding: 12px 0 11px;">
+        <div class="container text-light text-opacity-50 mt-2 align-items-center"
+            style=" width: 100%; padding-right: 15px; padding-left: 15px;  margin-right: auto;  margin-left: auto;">
+            <div class="row align-items-center"
+                style="display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;">
+                <div class="col-lg-6">
+                    <div class="copyright">
+                        <p>© All Rights Reserved. TiffinEatz Inc. 2024</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="find-us text-right" style="text-align: end;">
+                       <p>Terms Of Service &#124; Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

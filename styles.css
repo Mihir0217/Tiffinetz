@@ -1,0 +1,366 @@
+.container-fluid {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 25px;
+    position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    font-size: 10px;
+}
+
+.fire-img {
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carddiv {
+    background-color: #22262f;
+}
+
+.txt {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.txt:hover {
+    color: #ffc107 !important;
+}
+
+.btn-lg {
+    background-image: linear-gradient(to right, rgb(222, 222, 119), orange);
+    ;
+}
+
+
+#resturantTitle1 {
+    font-size: 30px;
+    font-family: cursive;
+    color: #ffc107
+}
+
+#resturantTitle2 {
+    color: #2f3237;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    font-size: 50px;
+}
+.badge {
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    font-size: 10px;
+}
+
+.rating {
+    color: #ffc107;
+    /* Set the color for filled stars */
+}
+
+.card {
+    border-radius: 5px !important;
+}
+
+.card a:hover {
+    color: #ffc107 !important;
+}
+
+
+.join a:hover {
+    color: #ffc107
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .box {
+        top: 50% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btnin {
+        width: 70% !important;
+    }
+
+    .near {
+        margin-top: 130px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .near {
+        margin-top: 200px !important;
+    }
+
+    .join {
+        font-size: 25px !important;
+    }
+
+    .bi11 {
+        display: none !important;
+    }
+
+    .fire-img {
+        display: none;
+    }
+
+    .navlit {
+        align-items: center;
+
+    }
+    .copyright{
+        text-align: center !important;
+    }
+    .find-us{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .near {
+        margin-top: 420px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .p1 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .banner {
+        margin: 80px !important;
+    }
+
+    .near {
+        margin-top: 400px !important;
+    }
+
+    .box {
+        top: 45% !important;
+    }
+
+    .btnin {
+        width: 100% !important;
+    }
+
+    .st1 {
+        text-align: center;
+    }
+
+    .banner {
+        margin-top: 80px !important;
+    }
+
+    .jimg {
+        margin-top: 15px;
+    }
+
+    .steps {
+        margin-top: 200px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cc {
+        margin-top: 20px !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    .btnin {
+        align-items: center;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .btn11 {
+        display: none !important;
+    }
+
+    .order {
+        text-align: center;
+    }
+
+    .app-button {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .media {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) and (min-width: 547px) {
+    .near {
+        margin-top: 600px !important;
+    }
+
+    .box {
+        top: 65% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) and (min-width: 426px) {
+    .box {
+        top: 60% !important;
+    }
+}
+
+
+@media screen and (max-width: 558px) {
+    .p1 {
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+
+    .p2 {
+        text-align: center !important;
+        font-size: 1rem !important;
+
+    }
+
+    .btnin {
+        align-items: center !important;
+    }
+}
+
+
+@media screen and (max-width: 546px) and (min-width: 478px) {
+    .near {
+        margin-top: 550px !important;
+    }
+}
+
+
+@media screen and (max-width: 477px) and (min-width: 459px) {
+    .near {
+        margin-top: 550px !important;
+    }
+}
+
+@media screen and (max-width: 458px) and (min-width: 450px) {
+    .near {
+        margin-top: 600px !important;
+    }
+}
+
+@media screen and (max-width: 449px) and (min-width: 426px) {
+    .near {
+        margin-top: 630px !important;
+    }
+
+    .sun {
+        display: inline !important;
+        text-align: center !important;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .near {
+        margin-top: 550px !important;
+    }
+
+    .sun {
+        display: inline !important;
+        text-align: center !important;
+    }
+
+    .box {
+        top: 60% !important;
+    }
+
+    .btnin {
+        display: inline-block !important;
+        width: 106% !important;
+        background: none !important;
+        align-items: center !important;
+
+    }
+
+    .btn {
+        width: 100% !important;
+        margin-top: 10px !important;
+        padding: 10px !important;
+    }
+
+    .steps {
+        margin-top: 85px !important;
+    }
+
+    .in1 {
+        height: 60px !important;
+        border-radius: 0 !important;
+
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+    .near {
+        margin-top: 700px !important;
+
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .box {
+        top: 55% !important;
+    }
+
+    .near {
+        margin-top: 650px !important;
+
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .near {
+        margin-top: 750px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .box {
+        top: 50% !important;
+    }
+}
